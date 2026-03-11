@@ -120,7 +120,7 @@ class AIToolsScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    const Text(
+                    Text(
                       '已集成DeepSeek等先进AI模型，为量化分析和策略生成提供强大算力支持。',
                       style: TextStyle(
                         color: Colors.grey[700],

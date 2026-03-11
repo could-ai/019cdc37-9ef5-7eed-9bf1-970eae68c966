@@ -140,7 +140,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    const Text(
+                    Text(
                       '到期时间: 2024-12-31',
                       style: TextStyle(
                         color: Colors.grey[600],
@@ -154,7 +154,7 @@ class ProfileScreen extends StatelessWidget {
                       valueColor: const AlwaysStoppedAnimation<Color>(Colors.amber),
                     ),
                     const SizedBox(height: 4),
-                    const Text(
+                    Text(
                       '经验值: 700/1000',
                       style: TextStyle(
                         color: Colors.grey[600],

@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'strategy_market_screen.dart';
+import 'my_strategies_screen.dart';
+import 'ai_tools_screen.dart';
+import 'profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -164,7 +168,7 @@ class HomeContent extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 8),
-                    const Text(
+                    Text(
                       '在震荡市中，资金在成长股和红利价值股之间切换。通过估值、拥挤度等指标进行归一化处理，当偏离基准值时自动切换仓位。',
                       style: TextStyle(color: Colors.grey[700]),
                     ),
@@ -193,6 +197,27 @@ class HomeContent extends StatelessWidget {
         children: [
           Icon(icon, color: const Color(0xFF1A73E8), size: 28),
           const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  description,
+                  style: TextStyle(
+                    color: Colors.grey[600],
+                    fontSize: 14,
+                  ),
+                ),
+              ],
+            ),
+          ),
         ],
       ),
     );
