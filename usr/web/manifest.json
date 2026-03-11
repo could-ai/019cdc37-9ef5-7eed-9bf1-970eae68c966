@@ -1,13 +1,7 @@
 {
-    "name": "couldai_user_app",
-    "short_name": "couldai_user_app",
-    "start_url": ".",
-    "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
-    "prefer_related_applications": false,
+    "name": "AI\u91cf\u5316\u4ea4\u6613\u5e73\u53f0",
+    "short_name": "AI\u4ea4\u6613",
+    "description": "\u4e13\u4e1a\u7684AI\u91cf\u5316\u4ea4\u6613\u5e73\u53f0\uff0c\u63d0\u4f9b\u725b\u6563\u7b56\u7565\u5e02\u573a\u3001AI\u8f85\u52a9\u6295\u8d44\u51b3\u7b56\u3001\u81ea\u52a8\u5316\u4ea4\u6613\u5de5\u5177",
     "icons": [
         {
             "src": "icons/Icon-192.png",
@@ -18,18 +12,14 @@
             "src": "icons/Icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
-        },
-        {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
         }
-    ]
-}
+    ],
+    "theme_color": "#1e88e5",
+    "background_color": "#f8f9fa",
+    "display": "standalone",
+    "start_url": "/",
+    "scope": "/",
+    "categories": ["finance", "productivity", "business"],
+    "lang": "zh-CN",
+    "dir": "ltr"
+}</content>
